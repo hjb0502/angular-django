@@ -1,0 +1,72 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$B6rn3vbuppfc$lQs6F0J+sOEBhamzyUmGktKURUyWT84HEGK5UDkgpNA=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-11-17T15:30:18.840Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.account",
+    "pk": 1,
+    "fields": {
+        "Name": "fake",
+        "email": "fake@mail.com",
+        "phone": "1111111111",
+        "industry": "FINANCE",
+        "website": "",
+        "description": "This is fake account",
+        "createdBy": 1,
+        "createdOn": "2018-11-17T15:34:48.112Z",
+        "isActive": true,
+        "assigned_to": [
+            1
+        ]
+    }
+},
+{
+    "model": "accounts.account",
+    "pk": 2,
+    "fields": {
+        "Name": "isopooh",
+        "email": "isopooh@mail.com",
+        "phone": "2222222222",
+        "industry": "HEALTHCARE",
+        "website": "",
+        "description": "This is isopooh account",
+        "createdBy": 1,
+        "createdOn": "2018-11-17T15:35:45.882Z",
+        "isActive": true,
+        "assigned_to": [
+            1
+        ]
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "kaya",
+        "last_name": "Abbes",
+        "account": 1,
+        "email": "abbess@email.com",
+        "phone": "00121212101",
+        "address": "Home N 333 Apartment 300",
+        "description": "This is the third contact",
+        "createdBy": 1,
+        "createdOn": "2018-11-17T15:36:04.680Z",
+        "isActive": true
+    }
+}
+]
